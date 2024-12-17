@@ -1354,7 +1354,8 @@ class Utils
                 XMLSecurityKey::RSA_SHA1,
                 XMLSecurityKey::RSA_SHA256,
                 XMLSecurityKey::RSA_SHA384,
-                XMLSecurityKey::RSA_SHA512
+                XMLSecurityKey::RSA_SHA512,
+                'http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1',
             )
         );
     }
